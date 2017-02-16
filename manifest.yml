@@ -6,6 +6,6 @@ applications:
   name: MyFirstTomcatUSApp
   host: MyFirstTomcatUSApp
   disk_quota: 1024M
+  buildpack: java_buildpack
   services:
   - ClearDB MySQL Database-rt
-  buildpack: java_buildpack
